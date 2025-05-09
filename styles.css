@@ -236,18 +236,23 @@ nav ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    width: 80%;
+    width: 100%;
+    max-width: 100vw; /* Verhindert horizontales Scrollen */
     padding-bottom: 10px;
+    box-sizing: border-box; /* Sorgt dafür, dass padding nicht die Breite überschreitet */
+    overflow-x: hidden; /* Entfernt unerwünschtes Scrollen */
 }
 
 .box {
     border-radius: 5px;
     text-align: center;
-    width: 80%; /* Die Box nimmt die gesamte Breite ein */
-        margin: 0; /* Entfernt äußere Abstände */
+    width: 100%; /* Jetzt nutzt die Box immer die gesamte Breite */
+    max-width: 600px; /* Falls du eine maximale Breite setzen willst */
+    margin: 10px auto; /* Fügt automatisch Abstände hinzu */
+    padding: 15px;
     transition: transform 0.3s ease;
+    box-sizing: border-box; /* Verhindert Überlappungen durch padding */
 }
-
 
 
 .spacer {
@@ -261,6 +266,9 @@ nav ul li a:hover {
 /* Formular */
 .form-container {
     text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
 }
 
 iframe {
