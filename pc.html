@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>PC Konfigurator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://tally.so/widgets/embed.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+            position: relative;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header mit Logo & Navigation -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="PC Konfigurator Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="uns.html">Über uns</a></li>
+                <li><a href="pc.html">PC-Bau</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fullscreen Formular -->
+    <div class="content">
+        <iframe data-tally-src="https://tally.so/r/wop00P?transparentBackground=1" 
+                title="Erzähl uns etwas über deinen PC">
+        </iframe>
+    </div>
+
+</body>
+</html>
