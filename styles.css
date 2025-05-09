@@ -240,11 +240,9 @@ nav ul li a:hover {
 }
 
 .box {
-    width: 100%;
     border-radius: 5px;
-    width: 100%;
     text-align: center;
-    width: 100%; /* Die Box nimmt die gesamte Breite ein */
+    width: 80%; /* Die Box nimmt die gesamte Breite ein */
         margin: 0; /* Entfernt äußere Abstände */
     transition: transform 0.3s ease;
 }
