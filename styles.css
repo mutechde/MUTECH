@@ -229,7 +229,7 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    padding: 8px 15px;
+    padding: 4px 7px;
     transition: 0.3s;
     display: block; /* Stellt sicher, dass die Links die volle Fläche einnehmen */
 }
